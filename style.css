@@ -1,63 +1,54 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background: linear-gradient(135deg, #5ee7df, #b490ca);
+  background: #87CEEB;
+}
+
+header {
+  background: #2e8b57;
   color: white;
+  padding: 40px 20px;
   text-align: center;
 }
 
-.hero {
-  padding: 60px 20px;
+nav {
+  background: #444;
+  text-align: center;
+  padding: 10px;
 }
 
-.hero h1 {
-  font-size: 36px;
-}
-
-.btn {
-  display: inline-block;
-  background: #ffcc00;
-  color: black;
-  padding: 12px 24px;
-  margin-top: 20px;
+nav a {
+  color: white;
+  margin: 0 15px;
   text-decoration: none;
-  border-radius: 8px;
   font-weight: bold;
 }
 
-.btn:hover {
-  background: orange;
+nav a:hover {
+  color: yellow;
 }
 
-.wrap {
+main {
   max-width: 800px;
   margin: auto;
   padding: 20px;
 }
 
-.card {
+section {
   background: white;
-  color: black;
-  padding: 20px;
   margin: 20px 0;
-  border-radius: 12px;
-  box-shadow: 4px 6px 0px rgba(0,0,0,0.3);
-  transition: 0.2s;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-.challenge {
-  margin-top: 40px;
   padding: 20px;
-  background: rgba(255,255,255,0.2);
-  border-radius: 12px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #2e8b57;
 }
 
 footer {
-  margin-top: 40px;
-  padding: 20px;
-  background: rgba(0,0,0,0.3);
+  background: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
 }
